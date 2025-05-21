@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>판다마켓</title>
+    <link rel="stylesheet" href="css/import.css" />
+    <link rel="icon" href="image/logo.png" />
+    <link rel="stylesheet" href="css/auth.css" />
+  </head>
+  <body>
+    <section class="auth_container">
+      <div class="auth_wrapper">
+        <div class="width_container">
+          <a href="/" class="logo">
+            <img src="image/logo.png" alt="판다로고" class="logo_img" />
+            <h1>판다마켓</h1>
+          </a>
+          <form action="/login">
+            <div class="user_input">
+              <div class="email_input">
+                <label>이메일</label>
+                <input type="email" class="text_tall"/>
+              </div>
+              <div class="password_input">
+                <label>비밀번호</label>
+                <div class="password_view">
+                  <input type="password" class="text_tall" />
+                  <span class="material-symbols-outlined password_icon">visibility_off</span>
+                </div>
+              </div>
+              <input type="submit" value="로그인" class="auth btn text_tall" />
+            </div>
+          </form>
+          <div class="simple_login">
+            <span>간편 로그인하기</span>
+            <div class="sns_login_wrapper">
+              <ul class="sns_login">
+                <li class="icon_cover google"><a href="https://www.google.com/"><img src="image/sns_google.png" alt="구글아이콘" class="sns_icon"></a></li>
+                <li class="icon_cover kakao"><a href="https://www.kakaocorp.com/page/"><img src="image/sns_kakao.png" alt="카카오아이콘" class="sns_icon"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="auth_helper">
+            <span class="auth_text">판다마켓이 처음이신가요?<a href="/signup" class="auth_link">회원가입</a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
